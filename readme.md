@@ -28,3 +28,7 @@ Now configuring the Visual Studio Build Tools..
 
 All done!
 ```
+Then you now you can install normally
+```sh
+$ npm i serialport
+```
