@@ -33,6 +33,15 @@ Then you now you can install normally
 $ npm i serialport
 ```
 
+## Ubuntu failed to install because make is not foud
+Solustion install make
+```sh
+$ sudo apt-get update
+$ sudo apt-get install -y make
+```
+### Other solusion install different version NodeJS, maybe versio 16 is fine.
+### If still not fix then try to remove package-lock.json and node_modules in the directory
+
 
 ## Ubuntu
 If you are using modbus-serial, try install individually with
