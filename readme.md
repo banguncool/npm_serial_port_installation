@@ -32,3 +32,21 @@ Then you now you can install normally
 ```sh
 $ npm i serialport
 ```
+
+
+## Ubuntu
+If you are using modbus-serial, try install individually with
+```sh
+$ npm i modbus-serial --unsafe-perm
+```
+
+or if you are using serialport
+```sh
+$ npm i serialport --unsafe-perm
+```
+
+then install all other dependecies
+
+```sh
+$ npm install
+```
